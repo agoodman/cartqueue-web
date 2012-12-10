@@ -7,6 +7,7 @@ gem 'haml'
 group :production do
   gem 'thin'
   gem 'ps'
+  gem 'activerecord-postgresql-adapter'
 end
 
 group :development do
